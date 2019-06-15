@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 3,
+        "name": "Login Page Testing of Free CRM",
+        "description": "",
+        "id": "login-page-testing-of-free-crm;login-page-testing-of-free-crm",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 13461381860,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user is alreay on login page",
+            "match": {
+              "location": "StepDefinition.user_is_alreay_on_login_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 564994109,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "user enters username and password",
+            "match": {
+              "location": "StepDefinition.user_enters_username_and_password()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 3080253835,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "user clicks on submit button",
+            "match": {
+              "location": "StepDefinition.user_clicks_on_submit_button()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9644327,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "user get the title",
+            "match": {
+              "location": "StepDefinition.user_get_the_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 2353621464,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "user close the browser",
+            "match": {
+              "location": "StepDefinition.user_close_the_browser()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Login Page Testing of Free CRM",
+    "description": "",
+    "id": "login-page-testing-of-free-crm",
+    "keyword": "Feature",
+    "uri": "E:/BDDFramework/BDDFramework/src/main/java/Features/Login.feature"
+  }
+]
