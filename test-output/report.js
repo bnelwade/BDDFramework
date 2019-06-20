@@ -1,77 +1,73 @@
-$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("E:/BDDFramework/BDDFramework/src/main/java/Features/Login.feature");
+$(document).ready(function() {var formatter = new CucumberHTML.DOMFormatter($('.cucumber-report'));formatter.uri("E:/BDDFramework/BDDFramework/src/main/java/Features/SignUp.feature");
 formatter.feature({
   "line": 1,
-  "name": "Login Page Testing of Free CRM",
+  "name": "SignUp Test of FB",
   "description": "",
-  "id": "login-page-testing-of-free-crm",
+  "id": "signup-test-of-fb",
   "keyword": "Feature"
 });
 formatter.scenario({
-  "line": 3,
-  "name": "Login Page Testing of Free CRM",
+  "line": 2,
+  "name": "SignUp Test",
   "description": "",
-  "id": "login-page-testing-of-free-crm;login-page-testing-of-free-crm",
+  "id": "signup-test-of-fb;signup-test",
   "type": "scenario",
   "keyword": "Scenario"
 });
 formatter.step({
-  "line": 5,
-  "name": "user is alreay on login page",
+  "line": 4,
+  "name": "user is already on signUp page",
   "keyword": "Given "
 });
 formatter.step({
-  "line": 6,
-  "name": "user enters username and password",
+  "line": 5,
+  "name": "user enters firstname and lastname and mobno and password",
+  "rows": [
+    {
+      "cells": [
+        "firstname",
+        "lastname",
+        "mobno",
+        "password"
+      ],
+      "line": 7
+    },
+    {
+      "cells": [
+        "balasaheb",
+        "nelwade",
+        "8793740818",
+        "bala@123"
+      ],
+      "line": 8
+    }
+  ],
   "keyword": "Then "
 });
 formatter.step({
-  "line": 7,
-  "name": "user clicks on submit button",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 8,
-  "name": "user get the title",
-  "keyword": "Then "
-});
-formatter.step({
-  "line": 9,
-  "name": "user close the browser",
+  "line": 10,
+  "name": "user click on submit button",
   "keyword": "Then "
 });
 formatter.match({
-  "location": "StepDefinition.user_is_alreay_on_login_page()"
+  "location": "SignUpStep.user_is_already_on_signUp_page()"
 });
 formatter.result({
-  "duration": 13461381860,
+  "duration": 10577316451,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefinition.user_enters_username_and_password()"
+  "location": "SignUpStep.user_enters_firstname_and_lastname_and_mobno_and_password(DataTable)"
 });
 formatter.result({
-  "duration": 564994109,
+  "duration": 2187721963,
   "status": "passed"
 });
 formatter.match({
-  "location": "StepDefinition.user_clicks_on_submit_button()"
+  "location": "SignUpStep.user_click_on_submit_button()"
 });
 formatter.result({
-  "duration": 3080253835,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinition.user_get_the_title()"
-});
-formatter.result({
-  "duration": 9644327,
-  "status": "passed"
-});
-formatter.match({
-  "location": "StepDefinition.user_close_the_browser()"
-});
-formatter.result({
-  "duration": 2353621464,
+  "duration": 2140409082,
   "status": "passed"
 });
 });

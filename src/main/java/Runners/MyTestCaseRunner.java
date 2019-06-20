@@ -6,7 +6,7 @@ import cucumber.api.CucumberOptions;
 import cucumber.api.junit.Cucumber;
 
 @RunWith(Cucumber.class)
-@CucumberOptions(features = { "E:\\BDDFramework\\BDDFramework\\src\\main\\java\\Features\\Login.feature" }, glue = {
+@CucumberOptions(features = { "E:\\BDDFramework\\BDDFramework\\src\\main\\java\\Features\\SignUp.feature" }, glue = {
 		"StepDefinitionPack" }, format = { "pretty", "html:test-output",
 				"json:json-output" }, strict = true, monochrome = true, dryRun = false)
 
